@@ -1,0 +1,98 @@
+<html>
+<head>
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+
+#home {
+    left: 0px;
+    width: 46px;
+    background: url('img_navsprites.gif') 0 0;
+}
+
+#prev {
+    left: 63px;
+    width: 43px;
+    background: url('img_navsprites.gif') -47px 0;
+}
+
+#next {
+    left: 129px;
+    width: 43px;
+    background: url('img_navsprites.gif') -91px 0;
+}
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+</style>
+</head>
+<body>
+
+<div class="img">
+  <a target="_blank" href="fjords.jpg">
+    <img src="style3.jpg" alt="Fjords" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="forest.jpg">
+    <img src="style2.jpg" alt="Forest" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="lights.jpg">
+    <img src="style.jpg" alt="Northern Lights" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="mountains.jpg">
+    <img src="style1.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+.navbar {
+	position: fixed;
+	width: 100%;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+body {	
+	background-image: url("logo.png");
+	background-color: #1889e6;
+}
+.index{
+	background-image: url("logo.png");
+	background-color: #1889e6;
+}
+
+.avarta {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	filter: drop-shadow(10px 5px 2px rgba(15, 184, 113, 0.877));
+	/*filter: drop-shadow(0 0 0.75rem crimson);*/
+}
+h4{
+	text-align: center;
+}
+
+section h2, section h3 {
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	color:white;
+}
+.biography{
+	color: black;
+	background-color: cornflowerblue;
+	text-transform: lowercase;
+	font-family: fantasy;
+	font-weight: lighter;
+	font-style: oblique;
+}
+
+section h3 {
+	margin-top: 3px;
+}
+#nav{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	list-style-type: none;
+	text-decoration: aliceblue;
+	
+}
+
+.myname {
+	border-bottom: solid 5px rgb(10, 178, 201);
+	color: white;
+}
+p::first-line {
+    color: white;
+    font-variant: small-caps;
+}
+p::first-letter {
+    color: #1889e6;
+    font-size: xx-large;
+}
+::selection {
+    color: red;
+	background: yellow;
+	
+}
+.form-horizontal{
+	border: #4d0707 1px solid;
+	padding: 20px;
+}
+.container
+{
+	background-color: rgb(83, 73, 60);
+	width: 100%;
+}
+.jumbotron{
+	background-color: rgb(15, 141, 124);
+}
+.logo{
+	color: white;
+	text-transform: capitalize;
+	text-shadow: transparent;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: lighter;
+	font-variant: small-caps;
+	font-style: italic;
+	text-align: center;
+	background-color: crimson;
+	width: 100%;
+}
+h6{
+	text-align: center;
+}
+.intro{
+	color: white;
+	text-align:justify;
+	border: 1px solid;
+	border-radius: 20px;
+}
+
